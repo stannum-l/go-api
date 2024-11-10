@@ -1,0 +1,20 @@
+linters:
+  disable-all: true
+  enable:
+  - dupl
+  - errcheck
+  - goconst
+  - gocritic
+  - gofmt
+  - goimports
+  - gosec
+  - gosimple
+  - govet
+  - ineffassign
+  - misspell
+  - nolintlint
+  - staticcheck
+  - stylecheck
+  - unconvert
+  - unused
+  fast: false
